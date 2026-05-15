@@ -27,8 +27,8 @@ body:
         Example:
         Users cannot register quickly using social login.
         We want to reduce onboarding friction.
-      validations:
-        required: true
+    validations:
+      required: true
   
   - type: textarea
     id: user_story

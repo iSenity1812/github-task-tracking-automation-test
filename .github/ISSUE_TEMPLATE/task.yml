@@ -4,7 +4,6 @@ title: "Task: [Short Description]"
 labels:
   - task
 assignees: []
-options: development, infrastructure, devops, maintenance, migration, automation, testing, documentation, support, operations
 
 body:
   - type: markdown
@@ -15,6 +14,27 @@ body:
         ## Engineering Task
 
         Please provide detailed context for the task.
+
+  # =========================================================
+  # TASK CATEGORY
+  # =========================================================
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: Task Type
+      options:
+        - development
+        - infrastructure
+        - devops
+        - maintenance
+        - migration
+        - automation
+        - testing
+        - documentation
+        - support
+        - operations
+    validations:
+      required: true
 
   # =========================================================
   # TASK SUMMARY

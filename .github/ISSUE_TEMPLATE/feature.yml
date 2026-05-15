@@ -1,6 +1,6 @@
 name: "Feature Request"
 description: "Suggest a new feature or improvement for the project."
-title: "Feature Request: [Short Description]"
+title: "Feature Request"
 labels:
   - feature
 assignees: []
@@ -13,18 +13,6 @@ body:
 
         ## Feature Request
         Please provide detailed business and technical context.
-
-  #========
-  # HIDDEN MARKER
-  #========
-  - type: textarea
-    id: template_marker
-    attributes:
-      label: "hidden"
-      description: "This field is used to identify the template type. Do not modify."
-      placeholder: "TEMPLATE:feature"
-    validations:
-      required: false
 
   # =========================================================
   # BUSINESS CONTEXT
